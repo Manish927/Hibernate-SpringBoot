@@ -15,6 +15,4 @@
 
 **Note:** Pay attention to remove operations, especially to removing child entities. The `CascadeType.REMOVE` and `orphanRemoval=true` may produce too many queries. In such scenarios, relying on bulk operations is most of the time the best way to go for deletions.
 
-<img src="./OneToMany.jpg" width="650" height="250">
-
-
+![](OneToMany.png)
