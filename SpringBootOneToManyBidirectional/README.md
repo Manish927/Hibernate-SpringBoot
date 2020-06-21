@@ -14,3 +14,7 @@
 - if `toString()` need to be overridden, then pay attention to involve only the basic attributes fetched when the entity is loaded from the database
 
 **Note:** Pay attention to remove operations, especially to removing child entities. The `CascadeType.REMOVE` and `orphanRemoval=true` may produce too many queries. In such scenarios, relying on bulk operations is most of the time the best way to go for deletions.
+
+<img src="./OneToMany.jpg" width="650" height="250">
+
+
