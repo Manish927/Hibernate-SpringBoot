@@ -4,7 +4,7 @@
 
 **Key points:**
 
-- choose an owning and a 'mappedBy` side
+- choose an owning and a `mappedBy` side
 - materialize the relationships collections via `Set` not `List`
 - use helper methods on the owner of the relationship to keep both sides of the association in sync
 - on the owner of the relationship use `CascadeType.PERSIST` and `CascadeType.MERGE`, but avoid `CascadeType.REMOVE/ALL`
