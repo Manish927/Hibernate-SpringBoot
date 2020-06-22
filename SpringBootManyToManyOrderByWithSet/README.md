@@ -11,3 +11,5 @@ This application uses two entities, `User` and `Device`, involved in a lazy bidi
 - for consistency across the transient state as well, consider using explicitly LinkedHashSet instead of HashSet
 
 **Note:** Alternatively, we can use `@OrderColumn`. This gets materialized in an additional column in the junction table. This is needed for maintaining a permanent ordering of the related data.
+
+![](images/ManyToMany.png)
