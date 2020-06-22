@@ -1,1 +1,1 @@
-# Spring Boot Persistence Best Practices #
+# Spring Boot Persistence Best Practices with Hibernate, JPA #
