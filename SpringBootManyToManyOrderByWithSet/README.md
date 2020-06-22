@@ -12,4 +12,4 @@ This application uses two entities, `User` and `Device`, involved in a lazy bidi
 
 **Note:** Alternatively, we can use `@OrderColumn`. This gets materialized in an additional column in the junction table. This is needed for maintaining a permanent ordering of the related data.
 
-![](images/ManyToMany.png)
+![](ManyToMany.png)
